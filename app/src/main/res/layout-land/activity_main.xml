@@ -41,4 +41,16 @@
         app:layout_constraintStart_toStartOf="@+id/seek_bar"
         app:layout_constraintTop_toBottomOf="@+id/seek_bar" />
 
+    <Switch
+        android:id="@+id/easyModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="95dp"
+        android:minHeight="48dp"
+        android:showText="false"
+        android:text='@string/easy_mode_label'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/seek_bar_label"
+        app:layout_constraintStart_toStartOf="@+id/seek_bar_label" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
