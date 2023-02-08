@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LandscapeLayout</string>
+    <string name="app_name">Tap the Square</string>
     <string name="seekbar_value_message">The seekbar value is %1$d</string>
     <string name="show_square_button">Show Square</string>
     <string name="instructions">Try to tap the square</string>
